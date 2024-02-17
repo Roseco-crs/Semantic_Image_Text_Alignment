@@ -162,3 +162,10 @@ cython_debug/
 # Data
 Data/
 Data/*
+yolov*
+tutorial/
+tutorial/*
+yolov5/
+yolov5/*
+
+
