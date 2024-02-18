@@ -1,9 +1,0 @@
-path: /home/crs/10Academy/w10/Semantic_Image_Text_Alignment/Data
-train: images/train 
-val: images/train
-
-# classes
-0: Logo
-1: Background Image
-2: Text Elements
-3: Call-To-Action Button

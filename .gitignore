@@ -167,6 +167,9 @@ tutorial/
 tutorial/*
 yolov5/
 yolov5/*
+images/
+images/*
+
     
 
 
