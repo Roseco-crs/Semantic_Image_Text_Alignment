@@ -10,7 +10,7 @@ from pprint import pprint
 VERTICAL_POSITIONING = {'Logo': [1], 'CTA Button': [1, 2, 3], 'Icon': [1, 2, 3], 'Product Image': [2],
                'Text Elements': [1,3], 'Infographic': [2], 'Banner': [1], 'Illustration': [2], 'Photograph': [2],
                'Mascot': [2], 'Testimonial Quotes': [2], 'Social Proof': [2, 1, 3], 'Seal or Badge': [3, 1, 2],
-               'Graphs and Charts': [2], 'Decorative Elements': [3], 'Interactive Elements': [2],
+               'Graphs and Charts': [2], 'Decorative Elements': [3], 'Interactive Elements': [2], 'Interactive Icons': [2],
                'Animation': [2], 'Coupon or Offer Code': [3], 'Legal Disclaimers or Terms': [3],
                'Contact Information': [3, 1, 2], 'Map or Location Image': [3], 'QR Code': [3, 1, 2]}
 
@@ -18,13 +18,13 @@ HORIZONTAL_POSITIONING = {'Logo': [1], 'CTA Button': [2, 1, 3], 'Icon': [1], 'Pr
                           'Text Elements': [1], 'Infographic': [1], 'Banner': [2], 'Illustration': [2],
                           'Photograph': [2], 'Mascot': [1], 'Testimonial Quotes': [2], 'Social Proof': [3, 1, 2],
                           'Seal or Badge': [3, 1, 2], 'Graphs and Charts': [1], 'Decorative Elements': [3],
-                          'Interactive Elements': [2], 'Animation': [2], 'Coupon or Offer Code': [3],
+                          'Interactive Elements': [2], 'Interactive Icons': [2], 'Animation': [2], 'Coupon or Offer Code': [3],
                           'Legal Disclaimers or Terms': [3], 'Contact Information': [3, 1, 2],
                           'Map or Location Image': [3], 'QR Code': [3, 1, 2]}
 
 
 class ImageComposer:
-    categories = Literal["Background", "Logo", "CTA Button", "Icon", "Product Image", "Text Elements", "Infographic", "Banner", "Illustration", "Photograph", "Mascot", "Testimonial Quotes", "Social Proof", "Seal or Badge", "Graphs and Charts", "Decorative Elements", "Interactive Elements", "Animation", "Coupon or Offer Code", "Legal Disclaimers or Terms", "Contact Information", "Map or Location Image", "QR Code"]
+    categories = Literal["Background", "Logo", "CTA Button", "Icon", "Product Image", "Text Elements", "Infographic", "Banner", "Illustration", "Photograph", "Mascot", "Testimonial Quotes", "Social Proof", "Seal or Badge", "Graphs and Charts", "Decorative Elements", "Interactive Elements", "Interactive Icons", "Animation", "Coupon or Offer Code", "Legal Disclaimers or Terms", "Contact Information", "Map or Location Image", "QR Code"]
     PositionSegment = Tuple[float, float]
     AlignmentPosition = Tuple[int, int]
     AlignmentPositions = List[AlignmentPosition]

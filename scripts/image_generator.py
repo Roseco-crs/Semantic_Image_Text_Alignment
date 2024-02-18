@@ -44,7 +44,7 @@ class ImageGenerater:
         """
         try:
             output = replicate.run(
-                "konieshadow/fooocus-api-anime:a750658f54c4f8bec1c8b0e352ce2666c22f2f919d391688ff4fc16e48b3a28f",
+                "stability-ai/sdxl:39ed52f2a78e934b3ba6e2a89f5b1c712de7dfea535525255b1aa35c5565e08b",
                 input={
                     "prompt": prompt,
                     "performance_selection": performance_selection,
